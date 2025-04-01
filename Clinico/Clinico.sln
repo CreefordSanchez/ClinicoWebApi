@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinico", "Clinico.csproj", "{DB9948D5-C429-4055-9956-3C9E1BB8DAE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinico.Models", "..\Clinico.Models\Clinico.Models.csproj", "{26455AD4-947C-4C98-AE7E-B59E4AB64CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinico.DAL", "..\Clinico.DAL\Clinico.DAL.csproj", "{98604DD1-678E-4B32-9771-97D8C4C09E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinico.BLL", "..\Clinico.BLL\Clinico.BLL.csproj", "{0C95F1EC-A923-4FDF-890B-758102589684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{DB9948D5-C429-4055-9956-3C9E1BB8DAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9948D5-C429-4055-9956-3C9E1BB8DAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9948D5-C429-4055-9956-3C9E1BB8DAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26455AD4-947C-4C98-AE7E-B59E4AB64CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26455AD4-947C-4C98-AE7E-B59E4AB64CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26455AD4-947C-4C98-AE7E-B59E4AB64CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26455AD4-947C-4C98-AE7E-B59E4AB64CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98604DD1-678E-4B32-9771-97D8C4C09E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98604DD1-678E-4B32-9771-97D8C4C09E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98604DD1-678E-4B32-9771-97D8C4C09E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98604DD1-678E-4B32-9771-97D8C4C09E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C95F1EC-A923-4FDF-890B-758102589684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C95F1EC-A923-4FDF-890B-758102589684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C95F1EC-A923-4FDF-890B-758102589684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C95F1EC-A923-4FDF-890B-758102589684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
